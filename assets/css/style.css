@@ -1,0 +1,64 @@
+*{
+	padding : 0px;
+	margin : 0px;
+	box-sizing : border-box;
+}
+
+.header{
+	padding : 15px 0px 17px 0px;
+	background-color : #f5f7fa;
+}
+.header li{
+	display : inline-block;
+}
+.header a{
+	color : #506a85;
+}
+.navbar li, .socialList, .socialList li{
+	display:inline-block;
+}
+
+.container{
+	width : 1200px;                 
+	margin : 0 auto;
+}
+a:link, a:visited{
+	text-decoration : none;
+}
+.row, .row::after, .row::before{             
+	display : table;
+	clear : both;
+	width : 100%;
+}
+
+div[class^="col"]{
+	float : left;
+	padding : 0 15px;
+}
+
+.col6{
+	width : (100% * 6 / 12);
+}
+.col2{
+	width : (100% * 2 / 12);
+}
+.col8{
+	width : (100% * 8 / 12);
+}
+
+
+.mb-15{
+	margin-bottom : 15px;
+}
+.text-right{
+	text-align : right;
+}
+.ml-0{
+	margin-left: 0px;
+}
+.pl-0{
+	padding : 0px;
+}
+.pl-15{
+	padding-left : 15px;
+}
